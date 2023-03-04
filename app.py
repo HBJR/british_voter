@@ -40,6 +40,8 @@ app.layout = \
 dbc.Container\
 ([
     html.Br(),
+    dbc.Row(dbc.Card(dbc.CardBody(html.H5('Build a British Voter! Enter demographic characteristics to see the probability of party support at the 2019 election')), style={'width':'100%'})),
+    html.Br(),
     dbc.Row(dbc.Stack([
         dbc.Card(dbc.CardBody('A')),
         dbc.Card(dbc.CardBody(dcc.Dropdown({'White British': 'White British,', 'Any other white background': 'other White,', 
