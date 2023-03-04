@@ -82,7 +82,7 @@ dbc.Container\
                 style={'width':'25%'}), 
         dbc.Card(dbc.CardBody('They are')),
         dbc.Card(dbc.CardBody(dcc.Dropdown({'full time': ' working full time', 'part time':'working part time',\
-                                        'student':'a full time student', 'retired':'retired', 'unemployed':'unemployed'},
+                                        'student':'a full time student', 'retired':'retired', 'unemployed':'unemployed', 'Other':'other'},
                                           id='work', style={'width':'100%'}, value='full time', clearable=False)), 
                 style={'width':'15%'}), 
         dbc.Card(dbc.CardBody('and earn'))
