@@ -176,7 +176,6 @@ def update_output(ethnicity, religion, sexuality, gender, age_cat, married, chil
                      legend_title="Party")
     fig.add_annotation(text=note,
                 showarrow=False,
-                text=note,
                 font=dict(size=10), 
                 xref='x domain',
                 x=0.5,
