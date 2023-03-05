@@ -174,8 +174,7 @@ def update_output(ethnicity, religion, sexuality, gender, age_cat, married, chil
                 height=530)
     fig.update_layout(yaxis_range=[0,100], 
                      legend_title="Party")
-    fig.add_annotation(
-                text=note,
+    fig.add_annotation(text=note,
                 showarrow=False,
                 text=note,
                 font=dict(size=10), 
