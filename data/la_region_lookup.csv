@@ -1,0 +1,383 @@
+LAD19CD,LAD19NM,RGN19NM,CTRY19NM
+E06000003,Redcar and Cleveland,North East,England
+E06000004,Stockton-on-Tees,North East,England
+E06000005,Darlington,North East,England
+E06000001,Hartlepool,North East,England
+E06000018,Nottingham,East Midlands,England
+E06000002,Middlesbrough,North East,England
+E06000010,"Kingston upon Hull, City of",Yorkshire and The Humber,England
+E06000011,East Riding of Yorkshire,Yorkshire and The Humber,England
+E06000008,Blackburn with Darwen,North West,England
+E06000012,North East Lincolnshire,Yorkshire and The Humber,England
+E06000013,North Lincolnshire,Yorkshire and The Humber,England
+E06000019,"Herefordshire, County of",West Midlands,England
+E06000016,Leicester,East Midlands,England
+E06000014,York,Yorkshire and The Humber,England
+E06000015,Derby,East Midlands,England
+E06000017,Rutland,East Midlands,England
+E06000006,Halton,North West,England
+E06000007,Warrington,North West,England
+E06000009,Blackpool,North West,England
+E06000024,North Somerset,South West,England
+E06000032,Luton,East of England,England
+E06000021,Stoke-on-Trent,West Midlands,England
+E06000025,South Gloucestershire,South West,England
+E06000022,Bath and North East Somerset,South West,England
+E06000033,Southend-on-Sea,East of England,England
+E06000026,Plymouth,South West,England
+E06000023,"Bristol, City of",South West,England
+E06000027,Torbay,South West,England
+E06000030,Swindon,South West,England
+E06000035,Medway,South East,England
+E06000034,Thurrock,East of England,England
+E06000036,Bracknell Forest,South East,England
+E06000031,Peterborough,East of England,England
+E06000037,West Berkshire,South East,England
+E06000020,Telford and Wrekin,West Midlands,England
+E06000049,Cheshire East,North West,England
+E06000046,Isle of Wight,South East,England
+E06000050,Cheshire West and Chester,North West,England
+E06000051,Shropshire,West Midlands,England
+E06000047,County Durham,North East,England
+E06000040,Windsor and Maidenhead,South East,England
+E06000041,Wokingham,South East,England
+E06000043,Brighton and Hove,South East,England
+E06000042,Milton Keynes,South East,England
+E06000038,Reading,South East,England
+E06000044,Portsmouth,South East,England
+E06000045,Southampton,South East,England
+E06000039,Slough,South East,England
+E06000057,Northumberland,North East,England
+E06000058,"Bournemouth, Christchurch and Poole",South West,England
+E06000059,Dorset,South West,England
+E06000052,Cornwall,South West,England
+E06000054,Wiltshire,South West,England
+E06000055,Bedford,East of England,England
+E06000056,Central Bedfordshire,East of England,England
+E06000053,Isles of Scilly,South West,England
+E07000031,South Lakeland,North West,England
+E07000032,Amber Valley,East Midlands,England
+E07000011,Huntingdonshire,East of England,England
+E07000033,Bolsover,East Midlands,England
+E07000005,Chiltern,South East,England
+E07000008,Cambridge,East of England,England
+E07000026,Allerdale,North West,England
+E07000029,Copeland,North West,England
+E07000004,Aylesbury Vale,South East,England
+E07000027,Barrow-in-Furness,North West,England
+E07000028,Carlisle,North West,England
+E07000030,Eden,North West,England
+E07000006,South Bucks,South East,England
+E07000007,Wycombe,South East,England
+E07000009,East Cambridgeshire,East of England,England
+E07000010,Fenland,East of England,England
+E07000012,South Cambridgeshire,East of England,England
+E07000064,Rother,South East,England
+E07000065,Wealden,South East,England
+E07000038,North East Derbyshire,East Midlands,England
+E07000045,Teignbridge,South West,England
+E07000043,North Devon,South West,England
+E07000044,South Hams,South West,England
+E07000061,Eastbourne,South East,England
+E07000040,East Devon,South West,England
+E07000036,Erewash,East Midlands,England
+E07000046,Torridge,South West,England
+E07000047,West Devon,South West,England
+E07000034,Chesterfield,East Midlands,England
+E07000062,Hastings,South East,England
+E07000041,Exeter,South West,England
+E07000042,Mid Devon,South West,England
+E07000039,South Derbyshire,East Midlands,England
+E07000063,Lewes,South East,England
+E07000037,High Peak,East Midlands,England
+E07000035,Derbyshire Dales,East Midlands,England
+E07000082,Stroud,South West,England
+E07000083,Tewkesbury,South West,England
+E07000070,Chelmsford,East of England,England
+E07000072,Epping Forest,East of England,England
+E07000084,Basingstoke and Deane,South East,England
+E07000080,Forest of Dean,South West,England
+E07000076,Tendring,East of England,England
+E07000078,Cheltenham,South West,England
+E07000068,Brentwood,East of England,England
+E07000073,Harlow,East of England,England
+E07000071,Colchester,East of England,England
+E07000069,Castle Point,East of England,England
+E07000066,Basildon,East of England,England
+E07000079,Cotswold,South West,England
+E07000074,Maldon,East of England,England
+E07000075,Rochford,East of England,England
+E07000081,Gloucester,South West,England
+E07000077,Uttlesford,East of England,England
+E07000067,Braintree,East of England,England
+E07000089,Hart,South East,England
+E07000090,Havant,South East,England
+E07000091,New Forest,South East,England
+E07000086,Eastleigh,South East,England
+E07000099,North Hertfordshire,East of England,England
+E07000106,Canterbury,South East,England
+E07000092,Rushmoor,South East,England
+E07000105,Ashford,South East,England
+E07000107,Dartford,South East,England
+E07000108,Dover,South East,England
+E07000109,Gravesham,South East,England
+E07000087,Fareham,South East,England
+E07000095,Broxbourne,East of England,England
+E07000093,Test Valley,South East,England
+E07000094,Winchester,South East,England
+E07000088,Gosport,South East,England
+E07000085,East Hampshire,South East,England
+E07000102,Three Rivers,East of England,England
+E07000103,Watford,East of England,England
+E07000096,Dacorum,East of England,England
+E07000098,Hertsmere,East of England,England
+E07000126,South Ribble,North West,England
+E07000111,Sevenoaks,South East,England
+E07000127,West Lancashire,North West,England
+E07000128,Wyre,North West,England
+E07000116,Tunbridge Wells,South East,England
+E07000118,Chorley,North West,England
+E07000121,Lancaster,North West,England
+E07000123,Preston,North West,England
+E07000119,Fylde,North West,England
+E07000120,Hyndburn,North West,England
+E07000122,Pendle,North West,England
+E07000113,Swale,South East,England
+E07000117,Burnley,North West,England
+E07000124,Ribble Valley,North West,England
+E07000110,Maidstone,South East,England
+E07000114,Thanet,South East,England
+E07000115,Tonbridge and Malling,South East,England
+E07000112,Folkestone and Hythe,South East,England
+E07000125,Rossendale,North West,England
+E07000137,East Lindsey,East Midlands,England
+E07000138,Lincoln,East Midlands,England
+E07000144,Broadland,East of England,England
+E07000133,Melton,East Midlands,England
+E07000139,North Kesteven,East Midlands,England
+E07000130,Charnwood,East Midlands,England
+E07000134,North West Leicestershire,East Midlands,England
+E07000140,South Holland,East Midlands,England
+E07000135,Oadby and Wigston,East Midlands,England
+E07000131,Harborough,East Midlands,England
+E07000132,Hinckley and Bosworth,East Midlands,England
+E07000142,West Lindsey,East Midlands,England
+E07000145,Great Yarmouth,East of England,England
+E07000146,King's Lynn and West Norfolk,East of England,England
+E07000129,Blaby,East Midlands,England
+E07000136,Boston,East Midlands,England
+E07000141,South Kesteven,East Midlands,England
+E07000143,Breckland,East of England,England
+E07000163,Craven,Yorkshire and The Humber,England
+E07000164,Hambleton,Yorkshire and The Humber,England
+E07000167,Ryedale,Yorkshire and The Humber,England
+E07000165,Harrogate,Yorkshire and The Humber,England
+E07000153,Kettering,East Midlands,England
+E07000147,North Norfolk,East of England,England
+E07000150,Corby,East Midlands,England
+E07000151,Daventry,East Midlands,England
+E07000152,East Northamptonshire,East Midlands,England
+E07000155,South Northamptonshire,East Midlands,England
+E07000166,Richmondshire,Yorkshire and The Humber,England
+E07000154,Northampton,East Midlands,England
+E07000156,Wellingborough,East Midlands,England
+E07000168,Scarborough,Yorkshire and The Humber,England
+E07000169,Selby,Yorkshire and The Humber,England
+E07000170,Ashfield,East Midlands,England
+E07000148,Norwich,East of England,England
+E07000149,South Norfolk,East of England,England
+E07000189,South Somerset,South West,England
+E07000192,Cannock Chase,West Midlands,England
+E07000193,East Staffordshire,West Midlands,England
+E07000194,Lichfield,West Midlands,England
+E07000187,Mendip,South West,England
+E07000179,South Oxfordshire,South East,England
+E07000171,Bassetlaw,East Midlands,England
+E07000181,West Oxfordshire,South East,England
+E07000172,Broxtowe,East Midlands,England
+E07000176,Rushcliffe,East Midlands,England
+E07000174,Mansfield,East Midlands,England
+E07000180,Vale of White Horse,South East,England
+E07000188,Sedgemoor,South West,England
+E07000177,Cherwell,South East,England
+E07000178,Oxford,South East,England
+E07000173,Gedling,East Midlands,England
+E07000175,Newark and Sherwood,East Midlands,England
+E07000216,Waverley,South East,England
+E07000217,Woking,South East,England
+E07000218,North Warwickshire,West Midlands,England
+E07000219,Nuneaton and Bedworth,West Midlands,England
+E07000210,Mole Valley,South East,England
+E07000211,Reigate and Banstead,South East,England
+E07000213,Spelthorne,South East,England
+E07000198,Staffordshire Moorlands,West Midlands,England
+E07000212,Runnymede,South East,England
+E07000196,South Staffordshire,West Midlands,England
+E07000207,Elmbridge,South East,England
+E07000200,Babergh,East of England,England
+E07000202,Ipswich,East of England,England
+E07000208,Epsom and Ewell,South East,England
+E07000209,Guildford,South East,England
+E07000195,Newcastle-under-Lyme,West Midlands,England
+E07000214,Surrey Heath,South East,England
+E07000197,Stafford,West Midlands,England
+E07000203,Mid Suffolk,East of England,England
+E07000199,Tamworth,West Midlands,England
+E07000215,Tandridge,South East,England
+E07000238,Wychavon,West Midlands,England
+E07000239,Wyre Forest,West Midlands,England
+E07000240,St Albans,East of England,England
+E07000221,Stratford-on-Avon,West Midlands,England
+E07000226,Crawley,South East,England
+E07000228,Mid Sussex,South East,England
+E07000224,Arun,South East,England
+E07000235,Malvern Hills,West Midlands,England
+E07000241,Welwyn Hatfield,East of England,England
+E07000242,East Hertfordshire,East of England,England
+E07000227,Horsham,South East,England
+E07000229,Worthing,South East,England
+E07000222,Warwick,West Midlands,England
+E07000220,Rugby,West Midlands,England
+E07000234,Bromsgrove,West Midlands,England
+E07000223,Adur,South East,England
+E07000236,Redditch,West Midlands,England
+E07000237,Worcester,West Midlands,England
+E07000225,Chichester,South East,England
+E08000004,Oldham,North West,England
+E08000005,Rochdale,North West,England
+E08000006,Salford,North West,England
+E08000011,Knowsley,North West,England
+E07000246,Somerset West and Taunton,South West,England
+E08000009,Trafford,North West,England
+E08000002,Bury,North West,England
+E08000007,Stockport,North West,England
+E08000012,Liverpool,North West,England
+E08000013,St. Helens,North West,England
+E07000245,West Suffolk,East of England,England
+E08000003,Manchester,North West,England
+E08000010,Wigan,North West,England
+E08000001,Bolton,North West,England
+E07000243,Stevenage,East of England,England
+E08000008,Tameside,North West,England
+E07000244,East Suffolk,East of England,England
+E08000016,Barnsley,Yorkshire and The Humber,England
+E08000017,Doncaster,Yorkshire and The Humber,England
+E08000018,Rotherham,Yorkshire and The Humber,England
+E08000024,Sunderland,North East,England
+E08000028,Sandwell,West Midlands,England
+E08000025,Birmingham,West Midlands,England
+E08000021,Newcastle upon Tyne,North East,England
+E08000026,Coventry,West Midlands,England
+E08000029,Solihull,West Midlands,England
+E08000030,Walsall,West Midlands,England
+E08000031,Wolverhampton,West Midlands,England
+E08000014,Sefton,North West,England
+E08000027,Dudley,West Midlands,England
+E08000022,North Tyneside,North East,England
+E08000023,South Tyneside,North East,England
+E08000015,Wirral,North West,England
+E08000019,Sheffield,Yorkshire and The Humber,England
+E09000005,Brent,London,England
+E09000006,Bromley,London,England
+E09000007,Camden,London,England
+E09000009,Ealing,London,England
+E09000002,Barking and Dagenham,London,England
+E09000003,Barnet,London,England
+E08000033,Calderdale,Yorkshire and The Humber,England
+E09000004,Bexley,London,England
+E08000037,Gateshead,North East,England
+E09000010,Enfield,London,England
+E09000011,Greenwich,London,England
+E09000012,Hackney,London,England
+E09000001,City of London,London,England
+E08000034,Kirklees,Yorkshire and The Humber,England
+E08000035,Leeds,Yorkshire and The Humber,England
+E09000008,Croydon,London,England
+E08000032,Bradford,Yorkshire and The Humber,England
+E08000036,Wakefield,Yorkshire and The Humber,England
+E09000020,Kensington and Chelsea,London,England
+E09000021,Kingston upon Thames,London,England
+E09000022,Lambeth,London,England
+E09000017,Hillingdon,London,England
+E09000030,Tower Hamlets,London,England
+E09000023,Lewisham,London,England
+E09000015,Harrow,London,England
+E09000028,Southwark,London,England
+E09000025,Newham,London,England
+E09000018,Hounslow,London,England
+E09000019,Islington,London,England
+E09000031,Waltham Forest,London,England
+E09000026,Redbridge,London,England
+E09000016,Havering,London,England
+E09000029,Sutton,London,England
+E09000027,Richmond upon Thames,London,England
+E09000032,Wandsworth,London,England
+E09000033,Westminster,London,England
+E09000024,Merton,London,England
+E09000013,Hammersmith and Fulham,London,England
+E09000014,Haringey,London,England
+N09000006,Fermanagh and Omagh,Northern Ireland,Northern Ireland
+N09000007,Lisburn and Castlereagh,Northern Ireland,Northern Ireland
+N09000005,Derry City and Strabane,Northern Ireland,Northern Ireland
+N09000008,Mid and East Antrim,Northern Ireland,Northern Ireland
+N09000003,Belfast,Northern Ireland,Northern Ireland
+N09000001,Antrim and Newtownabbey,Northern Ireland,Northern Ireland
+N09000004,Causeway Coast and Glens,Northern Ireland,Northern Ireland
+N09000002,"Armagh City, Banbridge and Craigavon",Northern Ireland,Northern Ireland
+N09000009,Mid Ulster,Northern Ireland,Northern Ireland
+S12000045,East Dunbartonshire,Scotland,Scotland
+S12000047,Fife,Scotland,Scotland
+S12000048,Perth and Kinross,Scotland,Scotland
+S12000049,Glasgow City,Scotland,Scotland
+S12000008,East Ayrshire,Scotland,Scotland
+S12000010,East Lothian,Scotland,Scotland
+S12000011,East Renfrewshire,Scotland,Scotland
+S12000013,Na h-Eileanan Siar,Scotland,Scotland
+S12000033,Aberdeen City,Scotland,Scotland
+N09000010,"Newry, Mourne and Down",Northern Ireland,Northern Ireland
+S12000014,Falkirk,Scotland,Scotland
+S12000017,Highland,Scotland,Scotland
+S12000036,City of Edinburgh,Scotland,Scotland
+S12000026,Scottish Borders,Scotland,Scotland
+N09000011,Ards and North Down,Northern Ireland,Northern Ireland
+S12000034,Aberdeenshire,Scotland,Scotland
+S12000027,Shetland Islands,Scotland,Scotland
+S12000018,Inverclyde,Scotland,Scotland
+S12000005,Clackmannanshire,Scotland,Scotland
+S12000006,Dumfries and Galloway,Scotland,Scotland
+S12000035,Argyll and Bute,Scotland,Scotland
+S12000038,Renfrewshire,Scotland,Scotland
+S12000019,Midlothian,Scotland,Scotland
+S12000020,Moray,Scotland,Scotland
+S12000021,North Ayrshire,Scotland,Scotland
+S12000023,Orkney Islands,Scotland,Scotland
+S12000039,West Dunbartonshire,Scotland,Scotland
+S12000040,West Lothian,Scotland,Scotland
+S12000041,Angus,Scotland,Scotland
+S12000042,Dundee City,Scotland,Scotland
+S12000028,South Ayrshire,Scotland,Scotland
+S12000029,South Lanarkshire,Scotland,Scotland
+S12000030,Stirling,Scotland,Scotland
+W06000009,Pembrokeshire,Wales,Wales
+W06000010,Carmarthenshire,Wales,Wales
+W06000008,Ceredigion,Wales,Wales
+W06000003,Conwy,Wales,Wales
+W06000006,Wrexham,Wales,Wales
+W06000005,Flintshire,Wales,Wales
+W06000002,Gwynedd,Wales,Wales
+W06000004,Denbighshire,Wales,Wales
+S12000050,North Lanarkshire,Scotland,Scotland
+W06000001,Isle of Anglesey,Wales,Wales
+W06000011,Swansea,Wales,Wales
+W06000012,Neath Port Talbot,Wales,Wales
+W06000018,Caerphilly,Wales,Wales
+W06000019,Blaenau Gwent,Wales,Wales
+W06000020,Torfaen,Wales,Wales
+W06000021,Monmouthshire,Wales,Wales
+W06000016,Rhondda Cynon Taf,Wales,Wales
+W06000015,Cardiff,Wales,Wales
+W06000013,Bridgend,Wales,Wales
+W06000014,Vale of Glamorgan,Wales,Wales
+W06000022,Newport,Wales,Wales
+W06000023,Powys,Wales,Wales
+W06000024,Merthyr Tydfil,Wales,Wales
