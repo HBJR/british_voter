@@ -46,7 +46,7 @@ dbc.Container\
         dbc.Card(dbc.CardBody('A')),
         dbc.Card(dbc.CardBody(dcc.Dropdown({'White': 'White,',  
                                             'Asian': 'Asian,', 'Black':'Black,', 'Mixed Race': 'Mixed Race,', 'Other ethnic group':'other,'},
-                                           id='ethnicity', style={'width': '100%'}, value='White British', clearable=False)),
+                                           id='ethnicity', style={'width': '100%'}, value='White', clearable=False)),
                  style={'width': '15%'}),
         dbc.Card(dbc.CardBody(dcc.Dropdown({'Anglican': 'Anglican,', 'non-Anglican Protestant': 'non-Anglican Protestant,',\
                                     'Catholic': 'Catholic,', 'Orthodox Christian':'Orthodox Christian,', 'Islam':'Muslim,',\
