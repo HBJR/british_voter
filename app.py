@@ -166,13 +166,27 @@ def update_output(ethnicity, religion, sexuality, gender, age_cat, married, chil
     names = list(prob_dict.keys())
     values = list(prob_dict.values())
     
-    
+    note = '@hbjroberts<br>Data Source: British Election Study Internet Panel (Wave 19)'
+
     fig = px.bar(x=names, y=values, color=names,
                  color_discrete_sequence = ["purple", "blue", "green", "red", "orange", "yellow"],
                 labels={'x':'Party', 'y':'% Chance of Supporting'},
                 height=530)
     fig.update_layout(yaxis_range=[0,100], 
                      legend_title="Party")
+    fig.add_annotation(showarrow=False,
+                       x=0,
+                       y=-0.15,
+                       xref='paper',
+                       yref='paper',
+                       xanchor='left',
+                       yanchor='bottom',
+                       xshift=-1,
+                       yshift=-5,
+                       align='left',
+                       text = note,
+                       font={'size':10})
+
     return fig
 
 
