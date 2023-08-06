@@ -7,21 +7,37 @@ import numpy as np
 import pickle
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import PolynomialFeatures 
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LogisticRegressionCV
 from pathlib import Path
 import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 
 
-infile = Path(__file__).parent.parent / 'model_outputs' / 'encoder'
+infile = Path(__file__).parent.parent / 'assets' / 'encoder'
 x_encoder = pickle.load(open(infile, 'rb'))
 
-infile = Path(__file__).parent.parent / 'model_outputs' / 'poly'
+infile = Path(__file__).parent.parent / 'assets' / 'poly'
 polynomial = pickle.load(open(infile, 'rb'))
 
-infile = Path(__file__).parent.parent / 'model_outputs' / 'british_voter'
-model = pickle.load(open(infile, 'rb'))
+infile = Path(__file__).parent.parent / 'assets' / 'model_W19'
+model_W19 = pickle.load(open(infile, 'rb'))
+
+infile = Path(__file__).parent.parent / 'assets' / 'model_W20'
+model_W20 = pickle.load(open(infile, 'rb'))
+
+infile = Path(__file__).parent.parent / 'assets' / 'model_W21'
+model_W21 = pickle.load(open(infile, 'rb'))
+
+infile = Path(__file__).parent.parent / 'assets' / 'model_W22'
+model_W22 = pickle.load(open(infile, 'rb'))
+
+infile = Path(__file__).parent.parent / 'assets' / 'model_W23'
+model_W23 = pickle.load(open(infile, 'rb'))
+
+infile = Path(__file__).parent.parent / 'assets' / 'model_W24'
+model_W24 = pickle.load(open(infile, 'rb'))
+
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 app.title = 'Build a British Voter'
@@ -70,8 +86,8 @@ dbc.Container\
         dbc.Card(dbc.CardBody(dcc.Dropdown({'Married': 'married,', 'Unmarried': 'unmarried,'},
                                           id='married', style={'width':'100%'}, value='Married', clearable=False)),
                  style={'width':'12%'}),
-        dbc.Card(dbc.CardBody(dcc.Dropdown({'Yes': 'have children,', 'No': 'have no children,'},
-                                          id='children', style={'width':'100%'}, value='Yes', clearable=False)),
+        dbc.Card(dbc.CardBody(dcc.Dropdown({'children': 'have children,', 'no children': 'have no children,'},
+                                          id='children', style={'width':'100%'}, value='children', clearable=False)),
                 style={'width':'15%'}),
         dbc.Card(dbc.CardBody('and acheived')),
         dbc.Card(dbc.CardBody(dcc.Dropdown({'No qualifications': 'no formal qualifications',\
@@ -91,21 +107,21 @@ dbc.Container\
     ], direction='horizontal', gap=2)),
     html.Br(),
     dbc.Row(dbc.Stack([
-        dbc.Card(dbc.CardBody(dcc.Dropdown({'under £5,000 per year':'<£5k.', '£5,000 to £9,999 per year':'£5-10k.',\
-                                          '£10,000 to £14,999 per year': '£10-15k.',\
-                                          '£15,000 to £19,999 per year': '£15-20k.',\
-                                          '£20,000 to £24,999 per year': '£20-25k.',\
-                                          '£25,000 to £29,999 per year': '£25-30k.',\
-                                          '£30,000 to £34,999 per year': '£30-35k.',\
-                                          '£35,000 to £39,999 per year': '£35-40k.',\
-                                          '£40,000 to £44,999 per year': '£40-45k.',\
-                                          '£45,000 to £49,999 per year': '£45-50k.',\
-                                          '£50,000 to £59,999 per year': '£50-60k.',\
-                                          '£60,000 to £69,999 per year': '£60-70k.',\
-                                          '£70,000 to £99,999 per year': '£70-100k.',\
-                                          '£100,000 to £149,999 per year': '£100-150k.',\
-                                          '£150,000 and over': '>£150k,'},
-                                          id='income', style={'width':'100%'}, value='under £5,000 per year', clearable=False)),
+        dbc.Card(dbc.CardBody(dcc.Dropdown({'under Â£5,000 per year':'<£5k.', 'Â£5,000 to Â£9,999 per year':'£5-10k.',\
+                                          'Â£10,000 to Â£14,999 per year': '£10-15k.',\
+                                          'Â£15,000 to Â£19,999 per year': '£15-20k.',\
+                                          'Â£20,000 to Â£24,999 per year': '£20-25k.',\
+                                          'Â£25,000 to Â£29,999 per year': '£25-30k.',\
+                                          'Â£30,000 to Â£34,999 per year': '£30-35k.',\
+                                          'Â£35,000 to Â£39,999 per year': '£35-40k.',\
+                                          'Â£40,000 to Â£44,999 per year': '£40-45k.',\
+                                          'Â£45,000 to Â£49,999 per year': '£45-50k.',\
+                                          'Â£50,000 to Â£59,999 per year': '£50-60k.',\
+                                          'Â£60,000 to Â£69,999 per year': '£60-70k.',\
+                                          'Â£70,000 to Â£99,999 per year': '£70-100k.',\
+                                          'Â£100,000 to Â£149,999 per year': '£100-150k.',\
+                                          'Â£150,000 and over': '>£150k,'},
+                                          id='income', style={'width':'100%'}, value='under Â£5,000 per year', clearable=False)),
                 style={'width':'11%'}),
         dbc.Card(dbc.CardBody('They live in a home they')), 
         dbc.Card(dbc.CardBody(dcc.Dropdown({'own outright': 'own outright', 'own with mortgage': 'own with mortgage',\
@@ -127,12 +143,15 @@ dbc.Container\
                 style={'width':'20%'})
     ], direction='horizontal', gap=2)),
     html.Br(), 
-    dbc.Row(dbc.Stack([dcc.Graph(id='fig', style={'width':'100%'})], direction='horizontal'))
+    dbc.Row(dbc.Stack([dcc.Graph(id='fig1', style={'width':'100%'})], direction='horizontal')), 
+    html.Br(), 
+    dbc.Row(dbc.Stack([dcc.Graph(id='fig2', style={'width':'100%'})], direction='horizontal'))
 ])
 
 
 @app.callback(
-    Output('fig', 'figure'),
+    Output('fig1', 'figure'),
+    Output('fig2', 'figure'), 
     Input('ethnicity', 'value'),
     Input('religion', 'value'),
     Input('sexuality', 'value'),
@@ -155,7 +174,7 @@ def update_output(ethnicity, religion, sexuality, gender, age_cat, married, chil
                       "rural_urban":[rural_urban]}
     x_transform = x_encoder.transform(pd.DataFrame.from_dict(voter_dict))
     x_transform = polynomial.transform(x_transform)
-    probs = model.predict_proba(x_transform)[0]
+    probs = model_W19.predict_proba(x_transform)[0]
     prob_dict = {"Brexit Party/Reform UK": probs[0],\
                 "Conservative": probs[1],\
                 "Green Party": probs[2],\
@@ -168,13 +187,14 @@ def update_output(ethnicity, religion, sexuality, gender, age_cat, married, chil
     
     note = '@hbjroberts<br>Data Source: British Election Study Internet Panel (Wave 19)'
 
-    fig = px.bar(x=names, y=values, color=names,
-                 color_discrete_sequence = ["purple", "blue", "green", "red", "orange", "yellow"],
+    fig1 = px.bar(x=names, y=values, color=names,
+                 color_discrete_sequence = ["aqua", "blue", "green", "red", "orange", "yellow"],
                 labels={'x':'Party', 'y':'% Chance of Supporting'},
-                height=530)
-    fig.update_layout(yaxis_range=[0,100], 
+                height=450, 
+                title = "Predicted Probabilites for the 2019 Election")
+    fig1.update_layout(yaxis_range=[0,100], 
                      legend_title="Party")
-    fig.add_annotation(showarrow=False,
+    fig1.add_annotation(showarrow=False,
                        x=0,
                        y=-0.15,
                        xref='paper',
@@ -186,8 +206,44 @@ def update_output(ethnicity, religion, sexuality, gender, age_cat, married, chil
                        align='left',
                        text = note,
                        font={'size':10})
+    
+    party_list = ["Brexit Party/Reform UK", "Conservative", "Green Party", "Labour", "Liberal Democrat", "Scottish National Party (SNP)"]
 
-    return fig
+    probs_19 = pd.DataFrame(zip(model_W19.predict_proba(x_transform)[0], party_list, ["2019-12-13"]*6), columns=['prob', 'party', 'date'])
+    probs_20 = pd.DataFrame(zip(model_W20.predict_proba(x_transform)[0], party_list, ["2020-06-03"]*6), columns=['prob', 'party', 'date'])
+    probs_21 = pd.DataFrame(zip(model_W21.predict_proba(x_transform)[0], party_list, ["2021-05-07"]*6), columns=['prob', 'party', 'date'])
+    probs_22 = pd.DataFrame(zip(model_W22.predict_proba(x_transform)[0], party_list, ["2021-11-26"]*6), columns=['prob', 'party', 'date'])
+    probs_23 = pd.DataFrame(zip(model_W23.predict_proba(x_transform)[0], party_list, ["2022-05-06"]*6), columns=['prob', 'party', 'date'])
+    probs_24 = pd.DataFrame(zip(model_W24.predict_proba(x_transform)[0], party_list, ["2022-12-01"]*6), columns=['prob', 'party', 'date'])
+
+    fig2_df = pd.concat([probs_19, probs_20, probs_21, probs_22, probs_23, probs_24], axis=0)
+    fig2_df['date'] = pd.to_datetime(fig2_df['date'])
+    fig2_df['prob'] = fig2_df['prob'] * 100
+    
+    note2 = '@hbjroberts<br>Data Source: British Election Study Internet Panel (Waves 19-24)'
+
+    fig2 = px.line(fig2_df, x='date', y='prob', color='party', markers=True,
+                   color_discrete_sequence = ["aqua", "blue", "green", "red", "orange", "yellow"], 
+                   labels={'date':'Date', 'prob':'% Chance of Supporting', 'party':'Party'}, 
+                   height=450, 
+                   title = "Trends in Predicted Probabilites since the 2019 Election")
+    
+    fig2.add_annotation(showarrow=False,
+                       x=0,
+                       y=-0.15,
+                       xref='paper',
+                       yref='paper',
+                       xanchor='left',
+                       yanchor='bottom',
+                       xshift=-1,
+                       yshift=-5,
+                       align='left',
+                       text = note2,
+                       font={'size':10})
+    
+
+    return fig1, fig2
+
 
 
 

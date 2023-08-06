@@ -14,13 +14,13 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 
-infile = Path(__file__).parent / 'model_outputs' / 'encoder'
+infile = Path(__file__).parent.parent / 'model_outputs' / 'encoder'
 x_encoder = pickle.load(open(infile, 'rb'))
 
-infile = Path(__file__).parent / 'model_outputs' / 'poly'
+infile = Path(__file__).parent.parent / 'model_outputs' / 'poly'
 polynomial = pickle.load(open(infile, 'rb'))
 
-infile = Path(__file__).parent / 'model_outputs' / 'british_voter'
+infile = Path(__file__).parent.parent / 'model_outputs' / 'british_voter'
 model = pickle.load(open(infile, 'rb'))
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
